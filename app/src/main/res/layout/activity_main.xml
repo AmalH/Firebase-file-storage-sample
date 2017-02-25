@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="80px"
+    tools:context="com.androidprojects.esprit.firebasefilestoragetutorial.MainActivity">
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="500px"
+        android:layout_height="200px"
+        android:text="Download photo"
+        android:layout_alignParentTop="true"/>
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="500px"
+        android:layout_height="200px"
+        android:text="Upload photo"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/btnDownload"/>
+    <ImageView
+        android:id="@+id/myImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@android:drawable/ic_menu_gallery"/>
+</RelativeLayout>

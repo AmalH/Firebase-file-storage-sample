@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="80px">
+
+    <Button
+        android:id="@+id/btnUploadNewFile"
+        android:layout_width="500px"
+        android:layout_height="200px"
+        android:text="Choose File"
+        android:layout_alignParentTop="true"/>
+    <Button
+        android:id="@+id/btnUploadToExistingFile"
+        android:layout_width="500px"
+        android:layout_height="200px"
+        android:text="Upload file"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/btnUploadNewFile"/>
+</RelativeLayout>

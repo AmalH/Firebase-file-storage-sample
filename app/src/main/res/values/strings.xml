@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseFileStorageTutorial</string>
+    <string name="pick_file">Pick File</string>
+    <string name="upload_file">Upload File</string>
+</resources>
